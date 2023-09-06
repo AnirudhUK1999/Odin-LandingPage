@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 0;
 }
 
 .section-1{
@@ -40,8 +41,9 @@ a{
 
 .website-info{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 50px;
+    gap: 100px;
 }
 
 .website-content{
@@ -71,6 +73,58 @@ p{
 }
 
 img{
-    width: 300px;
+    width: 500px;
     height: auto;
+}
+
+
+/* Section - 2 */
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2-header{
+    font-size: 36px;
+    font-weight: bolder;
+    /* border: solid green; */
+    font-family: sans-serif;
+    padding: 16px;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.poke-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 60px;
+}
+
+.pokeball-cards{
+    display: flex;
+    /* width: 100px; */
+    /* border: solid black; */
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 5px 0px;
+    
+}
+
+.poke-desc{
+    color: #1F2937;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.poke-image{
+    width: 150px;
+    height: 150px;
+    border: solid rgb(1, 105, 191);
+    border-radius: 10px;
+    flex: 0.75;
+    margin-left: 0px;
 }
