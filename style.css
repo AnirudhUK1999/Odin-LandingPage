@@ -51,9 +51,10 @@ a{
     display: flex;
     flex-direction: column;
     width: 500px;
+    flex-wrap: wrap;
 }
 
-button{
+.section-1-signup{
     align-self: start;
     background-color: rgb(1, 105, 191);
     border-radius: 10px;
@@ -124,7 +125,7 @@ img{
 .poke-image{
     width: 150px;
     height: 150px;
-    border: solid rgb(1, 105, 191);
+    border: solid #3882F6 4px;
     border-radius: 10px;
     flex: 0.75;
     margin-left: 0px;
@@ -168,4 +169,58 @@ img{
     /* border: solid black; */
     padding-left: 0;
     margin-top: 0;
+}
+
+.section-4{
+    display: flex;
+    justify-content: center;
+}
+
+.call-container{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    margin: 70px 100px;
+    padding: 20px;
+    border-radius: 16px;
+    flex: 1;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.call-content{
+    display: flex;
+    /* width: 50px; */
+    /* flex-wrap: wrap; */
+    /* border: solid black; */
+    padding: 24px;
+}
+
+.action-signup > button{
+    display: flex;
+    align-items: center;
+    border: solid white;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 8px 36px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    color: #F9FAF8;
+    font-family: sans-serif;
+    justify-content: center;
+    flex: 1;
+    padding: 48px;
+    font-size: 24px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;  
 }
